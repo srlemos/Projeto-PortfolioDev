@@ -1,0 +1,47 @@
+main {
+  background-color: var(--gray-200);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 72px;
+}
+
+.my-work {
+  padding-bottom: 144px;
+}
+
+.my-work-title {
+  text-align: center;
+  padding-bottom: 56px;
+
+  h3 {
+    color: var(--red);
+    font: var(--subtitle);
+    padding-bottom: 8px;
+  }
+
+  h2 {
+    color: var(--gray-600);
+    font: var(--title-md);
+  }
+}
+
+.my-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.container-projects {
+  background-color: var(--gray-300);
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
