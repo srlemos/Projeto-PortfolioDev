@@ -59,5 +59,6 @@ body {
 }
 
 h1 {
-  font: var(--text-md);
+  font: var(--title-lg);
+  color: var(--gray-600);
 }
