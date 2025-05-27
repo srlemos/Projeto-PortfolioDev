@@ -62,3 +62,17 @@ h1 {
   font: var(--title-lg);
   color: var(--gray-600);
 }
+
+h3 {
+  font: var(--subtitle);
+  color: var(--gray-500);
+
+  span {
+    color: var(--red);
+  }
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
