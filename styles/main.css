@@ -37,11 +37,26 @@ main {
   width: 330px;
   height: 280px;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+
 
   img {
     width: 306px;
     height: 156px;
     border-radius: 8px;
     object-fit: cover;
+  }
+
+  div {
+    width: 100%;
+    padding-inline: 12px;
+
+    h3 {
+      padding-bottom: 8px;
+    }
   }
 }
