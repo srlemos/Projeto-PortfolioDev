@@ -5,6 +5,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding-top: 72px;
+  max-width: 1366px;
 }
 
 .my-work {
