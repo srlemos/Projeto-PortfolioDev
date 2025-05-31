@@ -48,6 +48,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   padding: 20px;
+  border: 1px solid var(--gray-300);
 
   img:first-child {
     justify-self: start;
@@ -64,5 +65,18 @@ footer {
     justify-self: end;
     align-self: center;
   }
+
+  transition-duration: 0.4s;
 }
+
+.container-links:hover {
+  border: 1px solid var(--blue);
+
+  svg path {
+    fill: var(--blue);
+  }
+}
+
+
+
 
